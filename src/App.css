@@ -51,11 +51,16 @@ vertical-align: super;
     color: blueviolet;
     
 }
+
 .Nav1Inner2 a{
     color: blueviolet;
     text-decoration: none;
 
 }
+.Nav1Inner2 a:hover{
+color: #FF4E56 !important;
+}
+
 
 .Nav1Inner3 {
     display: flex;
@@ -71,9 +76,12 @@ vertical-align: super;
     border: 0px;
     background-color: blue;
     color: #FFF;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 16px;
     line-height: 25.6px;
+}
+.Nav1Button1:hover{
+    background-color:#FF4E56 ;
 }
 
 .Nav2 {
@@ -98,6 +106,9 @@ vertical-align: super;
 .Nav2Inner2 a{
     color: #FFF;
     text-decoration: none;
+}
+.Nav2Inner2 a:hover {
+    color: #FF4E56 !important;
 }
 .WatchandText {
     display: flex;
@@ -146,6 +157,11 @@ vertical-align: super;
     background-color: #ffffff00;
     color: #FFF;
 }
+.WTButton1:hover{
+    background-color: #FF4E56;
+    color: white;
+    border: none;
+}
 
 .WTButton2 {
     margin-left: 20px;
@@ -158,6 +174,12 @@ vertical-align: super;
     line-height: 20px;
     background-color: #ffffff00;
     color: #FFF;
+}
+.WTButton2:hover{
+    background-color: #FF4E56;
+    color: white;
+    border: none;
+
 }
 
 .Text-Container1 {
@@ -722,7 +744,7 @@ TC1-Text {
 }
 
 
-.Slbutton {
+.Slbutton1 {
     background-color: rgba(118, 93, 247, 1);
     width: 149.95px;
     height: 75px;
@@ -731,7 +753,21 @@ TC1-Text {
     color: #FFF;
 
 }
+.Slbutton1:hover{
+    height: 80px;
+}
+.Slbutton2 {
+    background-color: rgba(118, 93, 247, 1);
+    width: 149.95px;
+    height: 75px;
+    padding: 22px, 43.95px, 22px, 44px;
+    border: 0;
+    color: #FFF;
 
+}
+.Slbutton2:hover{
+    height: 80px;
+}
 .Wtxt9 {
     margin-top: 30px;
     font-size: 22px;
@@ -837,6 +873,7 @@ TC1-Text {
     background-color: rgba(255, 255, 255, 1);
     margin-left: 20px;
     margin-top: -50px;
+    font-weight: 600;
 
 }
 
@@ -1107,5 +1144,9 @@ padding-right: 285px;
     justify-content: center;
     color:#FFF
 }
-
-  
+.ServiceButton:hover{
+    background-color: #FF4E56;
+    color: white;
+    font-weight: 400;
+    border: none;
+}

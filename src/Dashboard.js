@@ -95,9 +95,7 @@ function Dashboard() {
                         </div>
                     <div className='Nav1Inner3'>
                         <div>(+855) 2669 1234</div>
-                        <div>
-                            <FontAwesomeIcon icon={faSearch} />
-                        </div>
+                       
                         <div><button className='Nav1Button1'>Get a Quote</button></div>
 
                     </div>
@@ -612,8 +610,8 @@ function Dashboard() {
                     <img src={people[currentIndex].image} alt={people[currentIndex].name} />
                 </div>
                 <div className="Wtxt9">
-                    <button onClick={prevPerson} className='Slbutton'>← Prev</button>
-                    <button onClick={nextPerson} className='Slbutton'>Next →</button>
+                    <button onClick={prevPerson} className='Slbutton1'>← Prev</button>
+                    <button onClick={nextPerson} className='Slbutton2'>Next →</button>
                 </div>
                 <div className='gman9'>
                     <img src={gman} />
@@ -672,7 +670,7 @@ function Dashboard() {
                                     <img src={pf1} className="img11" />
                                     by Tekone
                                 </div>
-                                <div className='ReadButton'>Read Post</div>
+                                <button className='ReadButton'>Read Post</button>
                             </div>
 
 
@@ -707,7 +705,7 @@ function Dashboard() {
                                     <img src={pf1} className="img11" />
                                     by Tekone
                                 </div>
-                                <div className='ReadButton'>Read Post</div>
+                                <button className='ReadButton'>Read Post</button>
                             </div>
 
 
@@ -742,7 +740,7 @@ function Dashboard() {
                                     <img src={pf1} className="img11" />
                                     by Tekone
                                 </div>
-                                <div className='ReadButton'><button>Read Post</button></div>
+                                <button className='ReadButton'>Read Post</button>
                             </div>
 
 
